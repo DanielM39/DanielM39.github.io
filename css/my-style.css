@@ -1,0 +1,21 @@
+body{
+    background-color: palegoldenrod;
+}
+.title-box{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 250%;
+    text-shadow: 5pt 5pt rgb(194, 194, 194);
+}
+#photo-box{
+    display: flex;
+    justify-content: center;
+}
+#photo{
+    width: 600pt;
+    height: 400pt;
+}
+#photo-box button{
+    padding: 10pt;
+    opacity: 0.5;
+}
