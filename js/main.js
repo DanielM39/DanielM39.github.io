@@ -1,4 +1,4 @@
-var photos = ["./img/sitting.jpg", "./img/laying.jpg", "./img/stretching.jpg"];
+var photos = ["./img/sitting(small).jpg", "./img/laying(small).jpg", "./img/stretching(small).jpg"];
 var position = 0;
 
 function nextPhoto()
