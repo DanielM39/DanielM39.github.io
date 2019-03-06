@@ -1,7 +1,7 @@
 let loadLargerImgs = true;
 var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
 if (connection) {
-    if (connection.effectiveType=== 'cellular') 
+    if (connection.effectiveType=== 'slow-2g' || connection.effectiveType=== '2g' || connection.effectiveType=== '3g') 
     {
         loadLargerImgs = false;
     }
