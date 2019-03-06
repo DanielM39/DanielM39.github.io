@@ -1,0 +1,23 @@
+#logo{
+    width: 2.5rem;
+    height: 2,5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    padding: .5rem .5rem !important;
+}
+
+.carousel-img{
+    width: 100%;
+}
+/*
+.home-carousel{
+    margin-top: 10rem;
+    padding: 10rem;
+}
+*/
+.row-spacer{
+    margin-top: 4vh;
+}
