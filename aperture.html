@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Page Title</title>
+        <title>Aperture</title>
         <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-        <script src="js/photo-home.js"></script>
+        <script src="js/main.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -21,11 +21,11 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="./aperture.html">Aperture</a>
+							<a class="nav-link" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="./aperture.html">Aperture <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="old-index.html">Old HomePage</a>
@@ -44,27 +44,43 @@
 				<div id="home-carousel" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 					<ul class="carousel-indicators">
-						<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#home-carousel" data-slide-to="1"></li>
-						<li data-target="#home-carousel" data-slide-to="2"></li>
+						<li data-target="#aperture-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#aperture-carousel" data-slide-to="1"></li>
+						<li data-target="#aperture-carousel" data-slide-to="2"></li>
+						<li data-target="#aperture-carousel" data-slide-to="3"></li>
 					</ul>
 					<!-- The slideshow -->
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="carousel-img" id="carousel-img-0" src="img/sitting(small).jpg" alt="cat sitting">
+							<img class="carousel-img" id="carousel-img-0" src="img/f3.5.JPG" alt="f 3.5">
+							<div class="carousel-caption">
+								<h3>f-stop: 3.5</h3>
+							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="carousel-img" id="carousel-img-1" src="img/laying(small).jpg" alt="cat laying">
+							<img class="carousel-img" id="carousel-img-1" src="img/f5.6.JPG" alt="f 5.6">
+							<div class="carousel-caption">
+								<h3>f-stop: 5.6</h3>
+							</div>
 						</div>
 						<div class="carousel-item">
-							<img class="carousel-img" id="carousel-img-2" src="img/stretching(small).jpg" alt="cat stretching">
+							<img class="carousel-img" id="carousel-img-2" src="img/f11.JPG" alt="f 11">
+							<div class="carousel-caption">
+								<h3>f-stop: 11</h3>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="carousel-img" id="carousel-img-2" src="img/f22.JPG" alt="f 22">
+							<div class="carousel-caption">
+								<h3>f-stop: 22</h3>
+							</div>
 						</div>
 					</div>
 					<!-- Left and right controls -->
-					<a class="carousel-control-prev" href="#home-carousel" data-slide="prev">
+					<a class="carousel-control-prev" href="#aperture-carousel" data-slide="prev">
 						<span class="carousel-control-prev-icon"></span>
 					</a>
-					<a class="carousel-control-next" href="#home-carousel" data-slide="next">
+					<a class="carousel-control-next" href="#aperture-carousel" data-slide="next">
 						<span class="carousel-control-next-icon"></span>
 					</a>
 				</div>
