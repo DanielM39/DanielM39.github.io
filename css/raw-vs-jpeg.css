@@ -1,0 +1,32 @@
+#raw-box, #jpeg-box, #controls{
+    height: 20em;
+}
+#raw-box{
+    background-color: aqua;
+}
+#jpeg-box{
+    background-color: greenyellow;
+}
+#controls{
+    background-color: aquamarine;
+}
+
+.btn {
+    display: inline !important;
+    background-color: DodgerBlue !important;
+    border: solid black 0.1em !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 12px 30px !important;
+    margin: 1em;
+    cursor: pointer;
+    font-size: 1.5em !important;
+}
+
+.btn:hover {
+    background-color: RoyalBlue !important;
+}
+
+#controls h3{
+    display: inline !important;
+}
