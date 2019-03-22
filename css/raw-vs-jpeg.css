@@ -1,5 +1,5 @@
-#raw-box, #jpeg-box, #controls{
-    height: 20em;
+#raw-box, #jpeg-box{
+    height: 24.2em;
 }
 #raw-box{
     background-color: aqua;
@@ -9,6 +9,7 @@
 }
 #controls{
     background-color: aquamarine;
+    height: 15em;
 }
 
 #raw, #jpeg{
