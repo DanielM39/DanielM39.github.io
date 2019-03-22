@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RAW vs JPEG</title>
+        <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/raw-vs-jpeg.css">
+        <script src="js/raw-vs-jpeg.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar col-12 navbar-expand-md navbar-dark bg-dark">
+				<a class="navbar-logo no-gutters" href="./index.html"><img id="logo" src="img/logo.jpg" alt="logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./aperture.html">Aperture</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./iso.html">ISO</a>
+                        </li>
+                        <li class="nav-item active">
+							<a class="nav-link" href="./raw-vs-jpeg.html">RAW vs JPEG <span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+					<ul class="navbar-nav mt-2 mt-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="old-index.html">Old HomePage</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="row row-spacer"></div>
+		<div class="row">
+			<div class="col-sm-4 offset-sm-2" id="raw-box">
+				<img id="raw" src="">
+            </div>
+            <div class="col-sm-4" id="jpeg-box">
+				<img id="jpeg" src="">
+			</div>
+		</div>
+        <div class="row row-spacer"></div>
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2" id="controls">
+                <h3>Image:</h3><button class="btn" type="button">1</button><button class="btn" type="button">2</button><button class="btn" type="button">3</button><button class="btn" type="button">4</button><button class="btn" type="button">5</button><button class="btn" type="button">6</button>
+                <br><h3>Exposure:</h3><button class="btn" type="button" onclick="displayImgs(4);">-2</button><button class="btn" type="button" onclick="displayImgs(3);">-1</button><button class="btn" type="button" onclick="displayImgs(0);">0</button><button class="btn" type="button" onclick="displayImgs(1);">1</button><button class="btn" type="button" onclick="displayImgs(2);">2</button>
+            </div>
+        </div>
+    </body>
+</html>
