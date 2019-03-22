@@ -11,6 +11,10 @@
     background-color: aquamarine;
 }
 
+#raw, #jpeg{
+    width: 100%;
+}
+
 .btn {
     display: inline !important;
     background-color: DodgerBlue !important;
