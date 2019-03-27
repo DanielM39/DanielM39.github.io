@@ -25,6 +25,27 @@ function ImgPair(raw, jpeg)
 
 function displayImgs(exposure)
 {
+    var expo = "Exposure: ";
+    switch(exposure)
+    {
+        case 0:
+            expo += "0";
+            break;
+        case 1:
+            expo += "1";
+            break;
+        case 2:
+            expo += "2";
+            break;
+        case 3:
+            expo += "-1";
+            break;
+        case 4:
+            expo += "-2";
+        default:
+            break;
+    }
+    document.getElementById("exp").innerHTML = expo;
     switch (set) 
     {
         case 1:
@@ -42,6 +63,11 @@ function displayImgs(exposure)
         default:
             break;
     }
+}
+
+function setInfo()
+{
+    document.getElementById("imgSet").innerHTML = "Image Set: " + set;
 }
 
 function switchToLargerImgs(rawSrc, jpegSrc)

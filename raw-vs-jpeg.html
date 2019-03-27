@@ -46,21 +46,30 @@
 		</header>
 		<div class="row row-spacer"></div>
 		<div class="row">
-			<div class="col-sm-5 offset-sm-1" id="raw-box">
-				<img id="raw" src="">
-				<h1>RAW</h1>
+			<div class="col-sm-4 offset-sm-2" id="raw-box">
+				<img id="raw" src="/img/raw.svg">
+				<!--<h1>RAW</h1>-->
             </div>
-            <div class="col-sm-5" id="jpeg-box">
-				<img id="jpeg" src="">
-				<h1>JPEG</h1>
+            <div class="col-sm-4" id="jpeg-box">
+				<img id="jpeg" src="/img/jpeg.svg">
+				<!--<h1>JPEG</h1>-->
 			</div>
 		</div>
         <div class="row row-spacer"></div>
         <div class="row">
-            <div class="col-sm-8 offset-sm-2" id="controls">
-                <h3>Image:</h3><button class="btn imgSet" type="button" onclick="set = 1;">1</button><button class="btn imgSet" type="button" onclick="set = 2;">2</button><button class="btn imgSet" type="button" onclick="set = 3;">3</button><button class="btn imgSet" type="button" onclick="set = 4;">4</button><button class="btn imgSet" type="button" onclick="set = 5;">5</button><button class="btn imgSet" type="button" onclick="set = 6;">6</button>
-                <br><h3>Exposure:</h3><button class="btn exp" type="button" onclick="displayImgs(4);">-2</button><button class="btn exp" type="button" onclick="displayImgs(3);">-1</button><button class="btn exp" type="button" onclick="displayImgs(0);">0</button><button class="btn exp" type="button" onclick="displayImgs(1);">1</button><button class="btn exp" type="button" onclick="displayImgs(2);">2</button>
-            </div>
+            <div class="col-sm-6 offset-sm-3" id="controls">
+				<div class="text-center">
+					<h3 id="imgSet">Image Set: </h3>
+					<span style="margin-right:5em;"></span>
+					<h3 id="exp">Exposure: </h3>
+				</div>
+				<div id="img-con" class="text-center">
+                	<h3>Image Set:</h3><button class="btn imgSet" type="button" onclick="set = 1;setInfo();">1</button><button class="btn imgSet" type="button" onclick="set = 2;setInfo()">2</button><button class="btn imgSet" type="button" onclick="set = 3;">3</button><button class="btn imgSet" type="button" onclick="set = 4;">4</button><button class="btn imgSet" type="button" onclick="set = 5;">5</button><button class="btn imgSet" type="button" onclick="set = 6;">6</button>
+				</div>
+				<div id="exp-con" class="text-center">
+					<h3>Exposure:</h3><button class="btn exp" type="button" onclick="displayImgs(4);">-2</button><button class="btn exp" type="button" onclick="displayImgs(3);">-1</button><button class="btn exp" type="button" onclick="displayImgs(0);">0</button><button class="btn exp" type="button" onclick="displayImgs(1);">1</button><button class="btn exp" type="button" onclick="displayImgs(2);">2</button>
+				</div>
+			</div>
         </div>
     </body>
 </html>
