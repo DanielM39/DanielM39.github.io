@@ -15,6 +15,8 @@ var set1s = [new ImgPair("./img/sets/1/0(small).png", "./img/sets/1/0(small).jpg
 var set2 = [new ImgPair("./img/sets/2/0(mid).png", "./img/sets/2/0(mid).jpg"), new ImgPair("./img/sets/2/1(mid).png", "./img/sets/2/1(mid).jpg"), new ImgPair("./img/sets/2/2(mid).png", "./img/sets/2/2(mid).jpg"), new ImgPair("./img/sets/2/-1(mid).png", "./img/sets/2/-1(mid).jpg"), new ImgPair("./img/sets/2/-2(mid).png", "./img/sets/2/-2(mid).jpg")];
 var set2s = [new ImgPair("./img/sets/2/0(small).png", "./img/sets/2/0(small).jpg"), new ImgPair("./img/sets/2/1(small).png", "./img/sets/2/1(small).jpg"), new ImgPair("./img/sets/2/2(small).png", "./img/sets/2/2(small).jpg"), new ImgPair("./img/sets/2/-1(small).png", "./img/sets/2/-1(small).jpg"), new ImgPair("./img/sets/2/-2(small).png", "./img/sets/2/-2(small).jpg")];
 
+var set3 = 
+
 var set = 1;
 var ex = 0;
 
