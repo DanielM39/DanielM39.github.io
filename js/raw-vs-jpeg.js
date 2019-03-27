@@ -16,6 +16,7 @@ var set2 = [new ImgPair("./img/sets/2/0(mid).png", "./img/sets/2/0(mid).jpg"), n
 var set2s = [new ImgPair("./img/sets/2/0(small).png", "./img/sets/2/0(small).jpg"), new ImgPair("./img/sets/2/1(small).png", "./img/sets/2/1(small).jpg"), new ImgPair("./img/sets/2/2(small).png", "./img/sets/2/2(small).jpg"), new ImgPair("./img/sets/2/-1(small).png", "./img/sets/2/-1(small).jpg"), new ImgPair("./img/sets/2/-2(small).png", "./img/sets/2/-2(small).jpg")];
 
 var set = 1;
+var ex = 0;
 
 function ImgPair(raw, jpeg)
 {
@@ -63,6 +64,7 @@ function displayImgs(exposure)
         default:
             break;
     }
+    ex = exposure;
 }
 
 function setInfo()
