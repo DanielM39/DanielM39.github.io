@@ -39,20 +39,3 @@ function checkIfShouldSwitch()
         preloadImages(largerImgs, switchToLargerImgs);
     }
 }
-
-
-/*
-function preloadImages(url)
-{
-    var img=new Image();
-    img.src=url;
-}
-
-function switchToLargeImgs()
-{
-    for (let index = 0; index < largerImgs.length; index++) {
-        preloadImages(largerImgs[index]);
-    }
-
-}
-*/

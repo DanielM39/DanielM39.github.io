@@ -1,31 +1,15 @@
 #raw-box, #jpeg-box{
-    /*height: 24.2em;*/
     height: 46.2vh;
-    /*border: solid black 0.2em;*/
     padding: 0px;
 }
 
-#raw-box{
-    /*background-color: aqua;*/
-    /*margin-right: .5em;*/
-}
-
-#jpeg-box{
-    /*background-color: greenyellow;*/
-    /*margin-left: .5em;*/
-}
-
 #controls{
-    /*background-color: aquamarine;*/
-    height: 16em;
     border: solid black 0.4em;
     border-radius: 0.5em;
 }
 
 #raw, #jpeg{
     width: 100%;
-    /*height: 23.8em;*/
-    /*height: 100%;*/
     position: absolute;
     z-index: 1;
     margin: 0 auto;
@@ -40,12 +24,7 @@
     border-left: solid black 0.2em;
     border-radius: 0em 0.5em 0.5em 0em;
 }
-/*
-#raw-box h1, #jpeg-box h1{
-    position: absolute;
-    z-index: -1;
-}
-*/
+
 .btn {
     display: inline !important;
     background-color: DodgerBlue !important;
@@ -65,9 +44,3 @@
 #controls h3{
     display: inline !important;
 }
-/*
-#img-con, #exp-con{
-    align-content: center;
-    float: middle;
-}
-*/
