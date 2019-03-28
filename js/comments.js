@@ -35,10 +35,11 @@ function postComment()
         "time": Date()
     };
     db.collection("comments").doc("comment"+(i++).pad(3)).set(commentToPost).then(function() {
-        console.log("Document successfully written!");
+        console.log("Comment posted successfully!");
         location.reload(true);
     })
     .catch(function(error) {
-        console.error("Error writing document: ", error);
+        console.error("Error posting comment: ", error);
+        alert("Error posting comment: " + error);
     });
 }
