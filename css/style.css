@@ -21,3 +21,12 @@
 .row-spacer{
     margin-top: 4vh;
 }
+
+h1{
+    font-weight: 700 !important;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 450;
+}

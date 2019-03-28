@@ -1,0 +1,42 @@
+#name, #comment{
+    float: right;
+    width: 70%;
+    padding: 1pt;
+    margin-right: 3%;
+    margin-bottom: 1.5em;
+}
+
+#comment{
+    height: 10em;
+}
+
+#name-lab, #comment-lab{
+    float: left !important;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    display: block;
+}
+
+label{
+    display: block;
+    clear: left;
+}
+
+form{
+    text-align: left !important;
+}
+
+button{
+    float: right !important;
+    display: block;
+    margin-right: 3% !important;
+}
+
+#comments div span{
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 3em !important;
+}
