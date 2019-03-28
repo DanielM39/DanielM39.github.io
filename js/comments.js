@@ -15,6 +15,7 @@ function loadComments()
     })
     .catch(function(error) {
         console.error("Error loading comments: ", error);
+        alert("Error loading comments: " + error);
     });
 }
 
